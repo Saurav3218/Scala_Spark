@@ -1,0 +1,17 @@
+package com.scala.basic_program
+
+//Write a Scala program to check two given integers, and return true if one of them is 30 or if their sum is 30
+object Addition {
+  def test(x:Int, y:Int) : Boolean  =
+  {
+    x == 30 || y == 30 || x + y == 30
+  }
+
+  def main(args: Array[String]): Unit = {
+    println("Result: " + test(30, 0));
+    println("Result: " + test(25, 5));
+    println("Result: " + test(30, 20));
+    println("Result: " + test(25, 20));
+  }
+}
+
