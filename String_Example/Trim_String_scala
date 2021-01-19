@@ -1,0 +1,14 @@
+object Scala_String {
+
+  def main(args: Array[String]): Unit = {
+    //Scala program to trim any leading or trailing whitespace from a given string.
+
+    val str="  Scala is good "
+    val new_str=str.trim
+
+    println("Original String "+ str)
+    println("New String:"+ new_str)
+
+  }
+}
+
